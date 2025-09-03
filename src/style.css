@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: 'Pixelify';
+    src: url('/fonts/pixelify.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('/fonts/inter.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@theme {
+  --font-base: "Inter", sans-serif;
+  --font-pixel: "Pixelify", sans-serif;
+  --color-wun: #2B2A32;
+  --text-color-base: white;
+}
+
+.text {
+  color: var(--text-color-base);
+  opacity: 0.8;
+}
+
+.text-supporting {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.65;
+}
+
+.text-shy {
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 0.5;
+}
+
+.text-muted {
+  color: rgba(255, 255, 255, 0.2);
+  opacity: 0.35;
+}
+
+.text-full {
+  color: white;
+}
+
+.text-magic {
+  color: #D59797;
+}
+
+
+body {
+  font-family: var(--font-base);
+  color: var(--text-color-base);
+  background-color: var(--color-wun);
+}
+
+.shiny-text {
+  background-image: linear-gradient(110deg, #5921F5 45%, #ede7fe 50%, #5921F5 55%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: background-shine 2s linear forwards;
+}
