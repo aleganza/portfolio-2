@@ -1,4 +1,6 @@
-import { useState } from 'react'
+import { useState } from 'react';
+
+import Heading from './Heading';
 
 export default function Hero() {
   const [copied, setCopied] = useState(false)
@@ -17,7 +19,7 @@ export default function Hero() {
     <div className="flex flex-col w-full items-start max-w-xl mx-auto mt-16 sm:mt-32 px-3 mb-10">
       <div className="flex flex-col gap-5">
         <div className="flex flex-col gap-4">
-          <h1 className="font-pixel text-xl">Alessio Ganzarolli</h1>
+          <Heading text="Alessio Ganzarolli" />
           <p className="text">Web Developer, Pixel Artist</p>
         </div>
 

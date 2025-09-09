@@ -22,6 +22,8 @@
   --font-base: "Inter", sans-serif;
   --font-pixel: "Pixelify", sans-serif;
   --color-wun: #2B2A32;
+  --color-wun-secondary: #26252C;
+  --color-magic: #D59797;
   --text-color-base: white;
 }
 
@@ -50,7 +52,7 @@
 }
 
 .text-magic {
-  color: #D59797;
+  color: var(--color-magic);
 }
 
 
@@ -58,6 +60,15 @@ body {
   font-family: var(--font-base);
   color: var(--text-color-base);
   background-color: var(--color-wun);
+}
+
+*::selection {
+  background-color: var(--color-magic);
+  color: var(--color-wun);
+}
+
+nav > *, img {
+  @apply select-none;
 }
 
 .shiny-text {

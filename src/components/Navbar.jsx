@@ -6,7 +6,7 @@ export default function Navbar() {
   const linkClass = (path) => (location === path ? "text" : "text-supporting");
 
   return (
-    <div className="flex flex-row py-6 text-sm w-full justify-between max-w-xl mx-auto px-3">
+    <nav className="flex flex-row py-6 text-sm w-full justify-between max-w-xl mx-auto px-3">
       <div className="flex gap-4">
         <Link href="/">
           <a className={linkClass("/")}>Projects</a>
@@ -44,6 +44,6 @@ export default function Navbar() {
           Resume
         </a>
       </div>
-    </div>
+    </nav>
   );
 }

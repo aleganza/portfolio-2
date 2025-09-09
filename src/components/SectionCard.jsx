@@ -3,14 +3,17 @@ import { Link } from 'lucide-react';
 export default function SectionCard({ title, description, image, link, tag, date }) {
   return (
     <div className="flex flex-col gap-4">
-      <img
-        src={image}
-        alt={title}
-        width="1820"
-        height="1024"
-        className="rounded-xl"
-        loading="lazy"
-      />
+      <div className='bg-wun-secondary rounded-xl overflow-hidden'>
+        <img
+          src={image}
+          alt={title}
+          width="1820"
+          height="1024"
+          loading="lazy"
+          className='invisible'
+          onLoad={(e) => e.currentTarget.classList.remove('invisible')}
+        />
+      </div>
 
       {link ? (
         <a
