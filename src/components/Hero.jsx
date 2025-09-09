@@ -5,7 +5,7 @@ export default function Hero() {
 
   const copyEmail = async () => {
     try {
-      await navigator.clipboard.writeText('you@example.com')
+      await navigator.clipboard.writeText('ganzarolli.alessio@gmail.com')
       setCopied(true)
       setTimeout(() => setCopied(false), 2200)
     } catch (e) {
