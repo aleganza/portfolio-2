@@ -18,7 +18,9 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
+
       <Hero />
+
       <main className="flex-grow px-4">
         <Switch>
           <Route path="/" component={Home} />
@@ -27,7 +29,10 @@ export default function App() {
           <Route>❌ Page not found</Route>
         </Switch>
       </main>
+
       <Footer />
+
+      <Navbar />
     </div>
   )
 }

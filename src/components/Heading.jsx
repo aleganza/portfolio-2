@@ -39,7 +39,7 @@ export default function Header({ text }) {
   }, [text])
 
   return (
-    <h2 className="text-xl font-pixel">
+    <h2 className="text-[21px] font-pixel">
       {displayedText}
     </h2>
   )

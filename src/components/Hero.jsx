@@ -9,7 +9,7 @@ export default function Hero() {
     try {
       await navigator.clipboard.writeText('ganzarolli.alessio@gmail.com')
       setCopied(true)
-      setTimeout(() => setCopied(false), 2200)
+      // setTimeout(() => setCopied(false), 2200)
     } catch (e) {
       console.error(e)
     }
@@ -25,10 +25,10 @@ export default function Hero() {
 
         <button
           onClick={copyEmail}
-          className={`text-magic py-1 inline-flex${copied ? "" : " cursor-pointer"}`}
+          className={`text-magic py-1 inline-flex${copied ? "" : " cursor-pointer"} group flex flex-row items-center w-fit`}
           aria-live="polite"
         >
-          {copied ? 'Email copied!' : 'Copy my email'}
+          {copied ? 'Email copied!' : 'Reach me out'}
         </button>
       </div>
     </div>
