@@ -9,7 +9,7 @@ export default function Hero() {
     try {
       await navigator.clipboard.writeText('ganzarolli.alessio@gmail.com')
       setCopied(true)
-      // setTimeout(() => setCopied(false), 2200)
+      setTimeout(() => setCopied(false), 13000)
     } catch (e) {
       console.error(e)
     }

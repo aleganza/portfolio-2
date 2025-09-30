@@ -1,12 +1,20 @@
 export const paid = [
   {
+    title: "Salesup",
+    description: "AI-powered sales assistant that helps teams prepare efficiently, connect deeply, and sell more effectively.",
+    image: "/images/salesup.webp",
+    link: "https://ai.salesup.me",
+    tag: null,
+    date: "September 2025"
+  },
+  {
     title: "Pixel Dream Studios",
     description:
       "A showcase website for Pixel Dream Studios, a Minecraft modpack team, highlighting their projects and featuring a custom wiki and blog to share updates with the community.",
     image: "/images/pds.webp",
     link: "https://pixeldreamstudios.net/",
     tag: null,
-    // date: "???",
+    date: "September 2024",
   },
   {
     title: "LC Training Center",
@@ -15,7 +23,7 @@ export const paid = [
     image: "/images/lc.webp",
     link: "https://apps.apple.com/it/app/lc-training-center/id6499268268",
     tag: null,
-    // date: "???",
+    date: "May 2024",
   },
   {
     title: "Zanini Piscine",
@@ -23,7 +31,7 @@ export const paid = [
       "An app for Zanini Piscine that makes booking pool services simple, helps customers manage their pools, and keeps the company’s schedule organized.",
     image: "/images/zanini.webp",
     tag: "WIP",
-    // date: "???",
+    date: "October 2024",
     link: null,
   },
   {
@@ -33,6 +41,6 @@ export const paid = [
     image: "/images/ciao_pizza_2.webp",
     link: "https://ciaopizza2almeria.com/",
     tag: null,
-    // date: "???",
+    date: "February 2025",
   },
 ];

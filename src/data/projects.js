@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/akuse.webp",
     link: "https://github.com/akuse-app/akuse",
     tag: null,
-    // date: "???",
+    date: "August 2023",
   },
   {
     title: "Plenty Of Armors",
@@ -15,7 +15,7 @@ export const projects = [
     image: "/images/poa.webp",
     link: "https://www.curseforge.com/minecraft/mc-mods/plenty-of-armors",
     tag: null,
-    // date: null,
+    date: "August 2022",
   },
   {
     title: "Day One",
@@ -24,7 +24,7 @@ export const projects = [
     image: "/images/day_one.webp",
     link: "https://github.com/The-Galilei-Project/Galilei-The-Game",
     tag: null,
-    // date: null,
+    date: "November 2021",
   },
   {
     title: "Salta Ebbasta",
@@ -33,6 +33,6 @@ export const projects = [
     image: "/images/salta_ebbasta.webp",
     link: null,
     tag: null,
-    // date: null,
+    date: "April 2020",
   },
 ];
