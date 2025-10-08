@@ -3,7 +3,7 @@ export const paid = [
     title: "Salesup",
     description: "AI-powered sales assistant that helps teams prepare efficiently, connect deeply, and sell more effectively.",
     image: "/images/salesup.webp",
-    link: "https://ai.salesup.me",
+    link: "https://www.salesup.me",
     tag: null,
     date: "September 2025"
   },
